@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Start Section Title */
 
 .section-title {
-    margin-bottom: 80px;
+    margin-bottom: 20px;
 }
 .section-title h2{
     color: #111;
@@ -332,6 +332,10 @@ a.navbar-brand {
 
 .navbar-default .navbar-nav > li:first-child {
     margin-left: 0;
+}
+
+.navbar-default .navbar-nav > li > form {
+    padding-top: 10px;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -1388,8 +1392,8 @@ h3.pricing-title {
 /*******************************************/
 
 #client-section {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .client-box ul {
@@ -1401,7 +1405,8 @@ h3.pricing-title {
   list-style: none;
   float: left;
   padding: 0 1px;
-  width: 20%;
+  height: auto;
+  width: 25%;
 }
 .client-box ul li a {
   display: inline-block;
@@ -1416,7 +1421,10 @@ h3.pricing-title {
   padding: 30px 0;
 }
 .client-box ul li a img {
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  max-height: 84px;
 }
 
 
@@ -2075,7 +2083,7 @@ h1.post-title a {
     background-attachment: fixed;
     background-repeat: no-repeat;
     padding-top: 80px;
-    padding-bottom: 100px;
+    padding-bottom: 20px;
 }
 
 
